@@ -1,0 +1,37 @@
+.footer
+{
+    background-color: #C6C5CD;
+}
+
+.media-icons
+{
+    border-radius: 100px;
+    width: 40px;
+    height: 40px; 
+}
+
+/* .navcolor
+{
+    color: #0D1466 !important;
+} */
+
+.footer a
+{
+    color: black;
+}
+
+.footer .footer-Links:hover
+{
+    text-decoration: underline !important;
+}
+
+.media-icons:hover
+{
+    background-color:bisque !important;
+}
+
+.footer-img
+{
+    width: 100px;
+    height: 100px;
+}

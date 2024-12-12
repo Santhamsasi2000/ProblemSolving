@@ -1,0 +1,55 @@
+.service-img
+{
+    height: 400px;
+}
+
+@media all and (max-width: 1000px) 
+{
+    .service-img
+    {
+        height: 300px;
+    }
+}
+
+@media all and (max-width: 700px) 
+{
+    .service-img
+    {
+        height: 400px;
+        border-radius: 12px !important;
+    }
+}
+
+@media all and (max-width: 600px) 
+{
+    .service-img
+    {
+        height: 350px;
+    }
+}
+
+@media all and (max-width: 500px) 
+{
+    .service-img
+    {
+        height: 300px;
+    }
+}
+
+@media all and (max-width: 500px) 
+{
+    .service-img
+    {
+        height: 250px;
+    }
+}
+
+@media all and (max-width: 500px) 
+{
+    .service-img
+    {
+        height: 200px;
+    }
+}
+
+
