@@ -1,24 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router';
-import Services from './Components/Services/Services';
-import Footer from './Components/Footer/Footer';
-import Header from './Components/NavBar/Header';
-import Career from './Components/Career/Career';
-import OurTeam from './Components/About Us/OurTeam';
-import CaseStudies from './Components/CaseStudies/CaseStudies';
-import CaseSeparate from './Components/CaseStudies/CaseSeparate';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter } from "react-router";
+import Services from "./Components/Services/Services";
+import Footer from "./Components/Footer/Footer";
+import Header from "./Components/NavBar/Header";
+import Career from "./Components/Career/Career";
+import OurTeam from "./Components/About Us/OurTeam";
+import CaseStudies from "./Components/CaseStudies/CaseStudies";
+import CaseSeparate from "./Components/CaseStudies/CaseDesc1";
+import CaseDesc1 from "./Components/CaseStudies/CaseDesc1";
+import CaseDesc2 from "./Components/CaseStudies/CaseDesc2";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
-     <React.StrictMode>
-       {/* <CaseStudies/> */}
-       <CaseSeparate/>
-     </React.StrictMode>
+    <React.StrictMode>
+       {/* <App /> */}
+       <Services/>
+    </React.StrictMode>
   </BrowserRouter>
 );
 

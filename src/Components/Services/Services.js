@@ -13,7 +13,7 @@ const Services = () => {
                 <p className='d-block d-md-none fw-bold fs-3 mt-4 order-2'>{id}) {title}</p>
                 <img src={image} alt={title} className='service-img w-100 rounded-5 order-1'/>
                 <p className='d-none d-md-block fw-bold fs-3 mt-4 order-2'>{title}</p>
-                <p className='fw-semibold fs-5 mb-2'>{subtitle}</p>
+                <p className='fw-semibold fs-5 mb-2 mt-3 mt-md-0'>{subtitle}</p>
                 <p className='fs-5'>{desc}</p>
             </div>
         ))
