@@ -13,13 +13,16 @@ import CaseStudies from "./Components/CaseStudies/CaseStudies";
 import CaseSeparate from "./Components/CaseStudies/CaseDesc1";
 import CaseDesc1 from "./Components/CaseStudies/CaseDesc1";
 import CaseDesc2 from "./Components/CaseStudies/CaseDesc2";
+import ContactUs from "./Pages/ContactUs";
+import Menus from "./Components/NavBar/Menus";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
        {/* <App /> */}
-       <Services/>
+       {/* <ContactUs/> */}
+       <Menus/>
     </React.StrictMode>
   </BrowserRouter>
 );

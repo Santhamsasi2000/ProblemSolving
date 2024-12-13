@@ -1,11 +1,14 @@
 .menus
 {
-   background-color: #C6C5CD;
+   background-color: #9fe870;
 }
 
 .navlink
 {
-    text-decoration: none;
-    color: black;
     font-weight: bold;
+    background-color: white !important;
+    color: black !important;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 3px;
 }

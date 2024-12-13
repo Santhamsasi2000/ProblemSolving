@@ -13,7 +13,7 @@ const SocialMedia = () => {
           target='_blank'  rel="noopener noreferrer"><FaFacebookF /></a>
         </div>
         <div className='media-icons bg-white d-flex justify-content-center align-items-center'>
-          <a className='fs-5 navcolor pb-1' href='https://www.instagram.com/shanthiraniphotos/' 
+          <a className='fs-5 navcolor pb-1' href='https://www.instagram.com/problemsolving.consultancy1/' 
            target='_blank'  rel="noopener noreferrer"><FaInstagram /></a>
         </div>
         <div className='media-icons bg-white d-flex justify-content-center align-items-center'>

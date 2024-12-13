@@ -34,11 +34,11 @@ const Footer = () => {
          </div>
          <div className="mb-3 d-flex gap-3 align-items-center">
               <i className="fs-1"><IoMailOpenOutline /></i>
-              <a href={`mailto:gokulrajgrg@gmail.com`} className="footer-Links mt-1 text-decoration-none fw-semibold">gokulrajgrg@gmail.com</a>
+              <a href={`mailto:problemsolving.consultancy1@gmail.com`} className="footer-Links mt-1 text-decoration-none fw-semibold">problemsolving.consultancy1@gmail.com</a>
          </div>
          <div className="d-flex gap-3 align-items-center">
               <i className="fs-2"><LuPhoneCall /></i>
-              <a  href={`tel:8883724736`} className="footer-Links ms-sm-2 text-decoration-none fw-semibold">8883724736</a>
+              <a  href={`tel:9361868543`} className="footer-Links ms-sm-2 text-decoration-none fw-semibold">9361868543</a>
          </div>
        </div>
     </section>
