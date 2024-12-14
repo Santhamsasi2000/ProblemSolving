@@ -42,19 +42,19 @@ const ContactUsForm = () => {
     }
   };
 
-  const standardOptions = [
-    "Pre Kg", "LKG", "UKG", "I STD", "II STD", "III STD", "IV STD", "V STD",
-    "VI STD", "VII STD", "VIII STD", "IX STD", "X STD", "XI STD", "XII STD",
+  const options = [
+    "Business","Careers"
   ];
 
   return (
     <section className="d-flex justify-content-center">
       <Formik
         initialValues={{
-          studentName: "",
-          studentStandard: "",
+          firstName: "",
+          lastName: "",
           email: "",
           mobileNumber: "",
+          standard: "",
           subject: "",
           message: "",
         }}
@@ -68,10 +68,11 @@ const ContactUsForm = () => {
             Feel free to use the below form to share your experience, questions, concerns, or Admission Enquiry.
             </p>
 
-            <FormField name="studentName" label="Student's Name" placeholder="Enter Student's Name*" />
-            <StandardDropdown options={standardOptions} name="studentStandard" />
-            <FormField name="email" label="Email Address (Optional)" type="email" placeholder="Enter Your Email Id" />
+            <FormField name="firstName" label="First Name" placeholder="Enter First Name*" />
+            <FormField name="lastName" label="Last Name" placeholder="Enter Last Name*" />
+            <FormField name="email" label="Email Address" type="email" placeholder="Enter Your Email ID" />
             <FormField name="mobileNumber" label="Mobile Number" placeholder="Enter Your Mobile Number*" />
+            <StandardDropdown options={options} name="Purpose" />
             <FormField name="subject" label="Subject" placeholder="Enter the Subject*" />
             <FormField name="message" label="Message (Optional)" as="textarea" placeholder="Your Message" style={{height:"200px",padding:"10px"}}/>
 

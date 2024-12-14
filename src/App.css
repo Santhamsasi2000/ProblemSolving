@@ -41,19 +41,29 @@
   }
 }
 
-.career-cards,.career-icon,.our-team,.services
+.career-cards,.career-icon,.our-team,.services,.contact-us
 {
     background-color: #EDEFEB;
 }
 
-.common-btn
+/* Careers.css and CaseStudies.css */
+.btn-success
 {
-  background-color: #80E142;
+    background-color: #80e142 !important;
+    border: none;
+    font-weight:600;
+    transition: background-color 0.3s ease, transform 0.2s ease
+}
+
+.btn-success:hover 
+{
+  color: black !important;
+  transform: translateY(-2px); /* Subtle lift effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
 }
 
 .common-btn:hover
 {
-  background-color: #80E142;
   font-weight:bold !important;
 }
 

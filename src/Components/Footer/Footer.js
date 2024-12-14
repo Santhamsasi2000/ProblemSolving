@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <section className='footer mt-5 px-5 py-5 row gy-4 gy-sm-5 justify-content-between'>
+    <section className='footer px-5 py-5 row gy-4 gy-sm-5 justify-content-between'>
        <div className='col- col-sm-6 col-lg-3'>
         {/* <img className="footer-img rounded-circle" src='/Images/Home/Logo1.jpg' alt='No-Image'/> */}
         <p className='fw-bold fs-3 mb-1 mt-2'>ZERO</p>
@@ -30,7 +30,7 @@ const Footer = () => {
           <i className="fs-1"><SlLocationPin /></i>
           <a href="https://www.google.com/maps/dir//XMJ8%2BGGX+Shanthi+Rani+Matric+Hr+Sec+School,+Kallal,+Tamil+Nadu+630305/@9.9813563,78.6637704,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3b005f5226f2ccfb:0x67377686d48a4335!2m2!1d78.6663527!2d9.9813513!3e0?entry=ttu&g_ep=EgoyMDI0MTExNy4wIKXMDSoASAFQAw%3D%3D"
           target="_blank" 
-          rel="noopener noreferrer" className="footer-Links text-decoration-none lh-lg fw-semibold"><span className="">Coimbatore, Tamil Nadu, 631027</span></a>
+          rel="noopener noreferrer" className="footer-Links text-decoration-none lh-lg fw-semibold"><span className="">Problem Solving Consultant Service, Divine Square F6, Flyover, Pollachi, Mullupadi, Tamil Nadu 642001</span></a>
          </div>
          <div className="mb-3 d-flex gap-3 align-items-center">
               <i className="fs-1"><IoMailOpenOutline /></i>

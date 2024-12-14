@@ -1,1 +1,32 @@
+@media all and (max-width: 350px) 
+{
+    .career-cards .card
+    {
+       padding: 20px !important;
+    }
+}
 
+.careers-list
+{
+    display: flex;
+    gap:9px;
+    margin-bottom: 12px;
+}
+
+.careers-list p
+{
+    margin-bottom: 1px;
+}
+
+@media all and (max-width:1020px) 
+{
+    .career-icons
+    {
+        flex-direction: column;
+        gap: 5px !important;
+    }
+    .careers-list
+    {
+        flex-direction: column;
+    }
+}

@@ -7,7 +7,6 @@ import { BrowserRouter } from "react-router";
 import Services from "./Components/Services/Services";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/NavBar/Header";
-import Career from "./Components/Career/Career";
 import OurTeam from "./Components/About Us/OurTeam";
 import CaseStudies from "./Components/CaseStudies/CaseStudies";
 import CaseSeparate from "./Components/CaseStudies/CaseDesc1";
@@ -20,9 +19,9 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
-       {/* <App /> */}
-       {/* <ContactUs/> */}
-       <Menus/>
+      <App />
+      {/* <ContactUs/> */}
+      {/* <Menus/> */}
     </React.StrictMode>
   </BrowserRouter>
 );

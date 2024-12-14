@@ -4,9 +4,12 @@ import Location from "../Components/ContactUs/Location";
 
 const ContactUs = () => {
   return (
-    <section className="m-5 d-flex flex-column flex-md-row gap-5 justify-content-between ">
-       <Location/>
-       <ContactUsForm/>
+    <section>
+        <div className="page-title">CONTACT US</div>
+        <div className="contact-us p-5 d-flex flex-column flex-md-row gap-5 justify-content-between">
+          <Location/>
+          <ContactUsForm/>
+        </div>
     </section>
   )
 }

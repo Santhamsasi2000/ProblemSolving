@@ -6,9 +6,10 @@
 .navlink
 {
     font-weight: bold;
-    background-color: white !important;
+    background-color: #edefeb !important;
     color: black !important;
     text-decoration: none;
     border-radius: 3px;
     padding: 3px;
+   
 }

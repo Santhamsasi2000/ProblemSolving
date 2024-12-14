@@ -11,17 +11,14 @@ const Menus = () => {
             ABOUT US
           </a>
           <ul className="dropdown-menu">
-            <li><NavLink to="/about" className="dropdown-item">OUR ABOUT</NavLink></li>
-            <li><NavLink to="/discipline" className="dropdown-item">JOIN US</NavLink></li>
-            <li><NavLink to="/parents" className="dropdown-item">PARENTS CO-OPERATION</NavLink></li>
-            <li><NavLink to="/rules" className="dropdown-item">RULES AND REGULATIONS</NavLink></li>
-            <li><NavLink to="/events" className="dropdown-item">CELEBRATIONS</NavLink></li>
-            <li><NavLink to="/otherservices" className="dropdown-item">OTHER SERVICES</NavLink></li>
+            <li><NavLink to="/aboutus" className="dropdown-item">ABOUT US</NavLink></li>
+            <li><NavLink to="/careers" className="dropdown-item">JOIN US</NavLink></li>
+            <li><NavLink to="/teams" className="dropdown-item">OUR TEAM</NavLink></li>
           </ul>
       </div>
       <NavLink to="/services" className="navlink px-sm-4 py-sm-1">SERVICES</NavLink>
-      <NavLink to="/services" className="navlink px-sm-4 py-sm-1">CASE STUDIES</NavLink>
-      <NavLink to="/contact" className="navlink px-sm-4 py-sm-1">FAQ</NavLink>
+      <NavLink to="/casestudies" className="navlink px-sm-4 py-sm-1">CASE STUDIES</NavLink>
+      <NavLink to="/faq" className="navlink px-sm-4 py-sm-1">FAQ</NavLink>
       <NavLink to="/contact" className="navlink px-sm-4 py-sm-1">CONTACT</NavLink>
     </section>
   )

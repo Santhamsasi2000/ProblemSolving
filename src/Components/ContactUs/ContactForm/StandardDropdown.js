@@ -4,10 +4,10 @@ import { Field, ErrorMessage } from "formik";
 const StandardDropdown = ({ options, name }) => (
   <div className="input-box mb-4">
     <label className="label-color fw-bold" htmlFor={name}>
-      Standard
+      What Purpose
     </label>
     <Field as="select" id={name} name={name} className="form-select standard-select">
-      <option value="">Select Student Standard</option>
+      <option value="">Select Purpose</option>
       {options.map((option) => (
         <option key={option} value={option}>
           {option}

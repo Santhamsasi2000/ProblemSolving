@@ -9,9 +9,9 @@ const Accordian = () => {
   };
 
   return (
-    <div className="accordion" id="accordionExample">
+    <div className="accordion m-5" id="accordionExample">
       {FaqData.map((item, index) => (
-        <div className="accordion-item" key={index}>
+        <div className="accordion-item" key={index} style={{backgroundColor:" #80e142"}}>
           <h2 className="accordion-header" id={`heading${index}`}>
             <button
               className={`accordion-button ${

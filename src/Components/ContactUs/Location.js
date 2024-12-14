@@ -12,9 +12,9 @@ const Location = () => {
           <p className="fw-semibold title">CONSULTANT SERVICE</p>
           <div className="d-flex gap-3 mb-4 align-items-center">
             <i className="fs-2 border border-0 text-primary bg-primary bg-opacity-10 p-3 rounded"><SlLocationPin /></i>
-            <a href="https://www.google.com/maps/dir//XMJ8%2BGGX+Shanthi+Rani+Matric+Hr+Sec+School,+Kallal,+Tamil+Nadu+630305/@9.9813563,78.6637704,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3b005f5226f2ccfb:0x67377686d48a4335!2m2!1d78.6663527!2d9.9813513!3e0?entry=ttu&g_ep=EgoyMDI0MTExNy4wIKXMDSoASAFQAw%3D%3D"
+            <a href="https://maps.app.goo.gl/XvnSZMZZacdKTBnw5"
           target="_blank" 
-          rel="noopener noreferrer" className="email text-decoration-none text-secondary lh-lg fw-semibold"><span>Coimbatore, Tamil Nadu, 631027</span></a>
+          rel="noopener noreferrer" className="email text-decoration-none text-secondary lh-lg fw-semibold"><span>Divine Square F6, Flyover, Pollachi, Mullupadi, Tamil Nadu 6420017</span></a>
             
           </div>
           <div className="d-flex gap-3 mb-4 align-items-center">
