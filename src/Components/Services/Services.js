@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <section className='service'>
       <div className="page-title">SERVICES</div>
-       <div className='p-4 p-sm-5 row justify-content-md-around justify-content-center'>
+       <div className='common-bg p-4 p-sm-5 row justify-content-md-around justify-content-center'>
        {
         ServicesData.map(({id,image,title,subtitle,desc})=>(
             <div className='col- col-md-5 mb-sm-5' key={id}>

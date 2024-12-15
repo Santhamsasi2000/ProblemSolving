@@ -14,14 +14,17 @@ import CaseDesc1 from "./Components/CaseStudies/CaseDesc1";
 import CaseDesc2 from "./Components/CaseStudies/CaseDesc2";
 import ContactUs from "./Pages/ContactUs";
 import Menus from "./Components/NavBar/Menus";
+import ScrollToTop from "./Components/ScrollToTop";
+import Careers from "./Components/About Us/Careers";
+import AboutUs from "./Components/About Us/AboutUs";
+import FAQ from "./Pages/FAQ";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
+      <ScrollToTop />
       <App />
-      {/* <ContactUs/> */}
-      {/* <Menus/> */}
     </React.StrictMode>
   </BrowserRouter>
 );

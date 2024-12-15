@@ -1,45 +1,23 @@
-import React, { useState } from "react";
-import { FaqData } from "../../Data/FaqData";
+import { useState } from "react";
+const Accordian = ({id,title,content}) => {
+    const [isActive, setIsActive] = useState(false);
 
-const Accordian = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
+    return (
+      <>
+        {
+              <div className="accordian" key={id}>
+                 <div className="accordian-item">
+                 <div className="accordian-title d-flex justify-content-between align-items-center fw-semibold fs-4" onClick={()=> setIsActive(!isActive)}>
+                       <div className="acc-title text-wrap">{title}</div>
+                       <div className="fs-1 fw-bold text-success">{isActive?"-":"+"}</div>
+                 </div>
+                    {isActive && <div className="accordian-content mt-3 fs-5 lh-lg">{content}</div>}
+                    <hr className="mt-4 border-1"/>
+                 </div>
+              </div>
+        }
+      </>
+    )
+}
 
-  const handleToggle = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);
-  };
-
-  return (
-    <div className="accordion m-5" id="accordionExample">
-      {FaqData.map((item, index) => (
-        <div className="accordion-item" key={index} style={{backgroundColor:" #80e142"}}>
-          <h2 className="accordion-header" id={`heading${index}`}>
-            <button
-              className={`accordion-button ${
-                activeIndex === index ? "" : "collapsed"
-              }`}
-              type="button"
-              onClick={() => handleToggle(index)}
-              aria-expanded={activeIndex === index}
-              aria-controls={`collapse${index}`}
-            >
-              {item.title}
-            </button>
-          </h2>
-          <div
-            id={`collapse${index}`}
-            className={`accordion-collapse collapse ${
-              activeIndex === index ? "show" : ""
-            }`}
-            aria-labelledby={`heading${index}`}
-            data-bs-parent="#accordionExample"
-          >
-            <div className="accordion-body">{item.content}</div>
-          </div>
-        </div>
-      ))}
-    </div>
-  );
-};
-
-export default Accordian;
-
+export default Accordian

@@ -7,7 +7,7 @@ const Careers = () => {
   return (
     <section>
       <div className="page-title">CAREERS</div>
-      <div className="p-3 p-sm-5 career-cards row gy-5">
+      <div className="common-bg mt-0 p-3 p-sm-5 career-cards row gy-5">
        {
         CareerTitle.map(({id,title,skill,qualification,experience,location,vacancy})=>(
            <div className="col-md-6">

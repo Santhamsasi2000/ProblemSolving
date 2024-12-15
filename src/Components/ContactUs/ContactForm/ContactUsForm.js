@@ -10,7 +10,7 @@ const ContactUsForm = () => {
   const onSubmit = async (values, { resetForm, setSubmitting }) => {
     const formData = new FormData();
     Object.keys(values).forEach((key) => formData.append(key, values[key]));
-    formData.append("access_key", "9afd317d-caf1-43f7-82ed-c9719737eff7");
+    formData.append("access_key", "e24f7ae3-a090-4125-9363-4d61d4ed139f");
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
@@ -43,7 +43,7 @@ const ContactUsForm = () => {
   };
 
   const options = [
-    "Business","Careers"
+    "SERVICES","CAREERS"
   ];
 
   return (
@@ -67,7 +67,6 @@ const ContactUsForm = () => {
             <p className="fw-semibold fs-6 mb-3 text-secondary">
             Feel free to use the below form to share your experience, questions, concerns, or Admission Enquiry.
             </p>
-
             <FormField name="firstName" label="First Name" placeholder="Enter First Name*" />
             <FormField name="lastName" label="Last Name" placeholder="Enter Last Name*" />
             <FormField name="email" label="Email Address" type="email" placeholder="Enter Your Email ID" />

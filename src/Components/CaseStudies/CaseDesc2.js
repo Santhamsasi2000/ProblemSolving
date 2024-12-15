@@ -1,6 +1,6 @@
 const CaseDesc2 = () => {
     return (
-     <section>
+     <section className="common-bg">
         <div className="row">
             <div className="col-sm-6 casestudy-separate p-3">
               <p className="text-white">CASE STUDY : 2</p> 

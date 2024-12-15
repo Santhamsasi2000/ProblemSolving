@@ -5,7 +5,7 @@ const CaseStudies = () => {
   return (
     <section>
        <div className="page-title">CASE STUDIES</div>
-       <div className="p-5 row gy-5 w-100">
+       <div className="common-bg p-5 row gy-5 w-100">
        {
           CaseStudiesData.map(({id,image,title,link})=>(
           <div className="col-md-6" key={id}>

@@ -9,7 +9,7 @@ const OurTeam = () => {
   return (
     <section>
       <div className="page-title">OUR TEAM</div>
-        <div className="p-5 our-team row justify-content-center gap-5">
+        <div className="common-bg p-5 our-team row justify-content-center gap-5">
           {
             OurTeamData.map(({id,name,designation})=>(
               <div className="card col-6 p-0 border-0">

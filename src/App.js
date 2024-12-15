@@ -9,7 +9,6 @@ import FAQ from "./Pages/FAQ";
 import CaseDesc1 from "./Components/CaseStudies/CaseDesc1";
 import CaseDesc2 from "./Components/CaseStudies/CaseDesc2";
 import CaseDesc3 from "./Components/CaseStudies/CaseDesc3";
-import ScrollToTop from "./Components/ScrollToTop";
 import ContactUs from "./Pages/ContactUs";
 import OurTeam from "./Components/About Us/OurTeam";
 import Careers from "./Components/About Us/Careers";
@@ -18,7 +17,6 @@ import AboutUs from "./Components/About Us/AboutUs";
 function App() {
   return (
     <>
-      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

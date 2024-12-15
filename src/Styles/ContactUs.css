@@ -48,18 +48,45 @@ form
     }
 }
 /* Location.css */
-@media all and (max-width:390px)
+@media all and (max-width:470px)
 {
     .email,.text-mobile
     {
-       font-size: 12px !important;
+       font-size: 13px !important;
+    }
+    /* Diection.css */
+    .direction
+    {
+        width: 300px !important;
+        height: 200px !important;
+    }
+}
+
+@media all and (max-width:400px)
+{
+    .email,.text-mobile
+    {
+       font-size: 10px !important;
+    }
+    .direction
+    {
+        width: 250px !important;
+        height: 200px !important;
+    }
+}
+
+@media all and (max-width:340px)
+{
+    .email,.text-mobile
+    {
+       font-size: 9px !important;
     }
 }
 
 .email:hover
 {
     text-decoration: underline !important;
-    color: blue !important;
+    color: green !important;
 }
 
 /* Direction.css */
@@ -78,21 +105,8 @@ form
     }
 }
 
-@media  all and (max-width:750px) 
-{
-    .direction
-    {
-        width: 300px;
-        height: 200px;
-    }
-}
-
 @media  all and (max-width:360px) 
 {
-    .direction
-    {
-        width: 250px;
-        height: 200px;
-    }
+   
 }
 

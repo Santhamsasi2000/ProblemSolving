@@ -3,7 +3,7 @@
     height: 400px;
 }
 
-@media all and (max-width: 450px) 
+@media all and (max-width: 950px)
 {
   .casestudy-img
   {
@@ -11,7 +11,7 @@
   }
 }
 
-@media all and (max-width: 380px) 
+@media all and (max-width: 800px)
 {
   .casestudy-img
   {
@@ -19,43 +19,44 @@
   }
 }
 
+@media all and (max-width: 550px) 
+{
+  .casestudy-img
+  {
+      height: 350px;
+  }
+}
+
+@media all and (max-width: 480px) 
+{
+  .casestudy-img
+  {
+      height: 300px;
+  }
+}
+
+@media all and (max-width: 400px) 
+{
+  .casestudy-img
+  {
+      height: 250px;
+  }
+}
+
 .casestudy-separate
 {
   font-family: "Rubik Mono One", monospace;
   font-size: 30px;
+  font-weight: 700;
   text-align: center;
   background-color: #163300;
   color: #9FE870;
 }
 
-@media all and (max-width: 1150px) 
+@media all and (max-width: 720px) 
 {
   .casestudy-separate
   {
     font-size: 25px;
-  }
-}
-
-@media all and (max-width: 850px) 
-{
-  .casestudy-separate
-  {
-    font-size: 23px;
-  }
-}
-
-@media all and (max-width: 800px) 
-{
-  .casestudy-separate
-  {
-    font-size: 22px;
-  }
-}
-
-@media all and (max-width: 650px) and (min-width:576px)
-{
-  .casestudy-separate
-  {
-    font-size: 19px;
   }
 }
