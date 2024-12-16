@@ -1,12 +1,15 @@
 .menus
 {
-   background-color: #9fe870;
+   /* background-color: #9fe870; */
+   background-color: #ffd7ef;
 }
 
 .navlink
 {
     font-weight: bold;
-    background-color: #edefeb !important;
+    background-color:white;
+    /* background-color: #edefeb !important; */
+    /* background-color: #9fe870; */
     color: black !important;
     text-decoration: none;
     border-radius: 3px;
