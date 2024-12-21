@@ -22,7 +22,8 @@ export const ServicesData = [
     },
     {
         id:4,
-        image:"/Images/Services/Lean Layout.jpg",
+        // image:"/Images/Services/Lean Layout.jpg",
+        image:"https://i.ibb.co/z8qS7SX/Auditing.jpg",
         title:"Lean Layout Preparation",
         subtitle:"Streamlined 2D Designs & Power BI Reports",
         desc:" Optimize your operations with professional lean layouts in 2D and detailed Power BI reports."
