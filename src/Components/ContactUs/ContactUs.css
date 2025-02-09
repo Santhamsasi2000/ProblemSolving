@@ -1,0 +1,70 @@
+/* ContactForm.css */
+form
+{
+    max-width: 600px;
+}
+
+.input-box .field
+{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+}
+
+.input-box .mess
+{
+    height: 200px;
+    resize: none;
+}
+
+.form-label
+{
+    color:#ba9538;
+    font-weight:600;
+    margin-bottom: 2px;
+}
+
+.standard-select
+{
+    height: 50px;
+    background-color:  #f9f7ed;
+}
+
+.form-btn
+{
+   background-color: #ba9538;
+   color: white;
+   border: none;
+   padding: 5px 50px;
+   border-radius: 3px;
+   font-weight: bold;
+}
+
+.form-btn:hover
+{
+    background-color: #a0752e;
+}
+
+.form-btn:active
+{
+    background-color: #805828;
+}
+
+@media all  and (max-width: 480px)
+{
+    form .btn-common
+    {
+        padding: 10px 90px !important;
+    }
+}
+
+@media all and (max-width:465px)
+{
+    .contact
+    {
+        margin-left: 0px !important;
+    }
+}
+
+
+

@@ -12,6 +12,16 @@ export const OurTeamData = [
     {
         id:3,
         name:"Akhil",
-        designation:"Problem Analysis and Solutions Officer",
+        designation:"Planning & Problem's Finding Officer",
+    },
+    {
+        id:4,
+        name:"Naveen Kumar",
+        designation:"Website Developer",
+    },
+    {
+        id:5,
+        name:"Sasi Kumar",
+        designation:"Website Developer",
     },
 ];

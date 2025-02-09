@@ -3,7 +3,7 @@ import { Field, ErrorMessage } from "formik";
 
 const FormField = ({ label, name, type = "text", as = "input", ...props }) => (
   <div className="input-box mb-4">
-    <label className="label-color fw-bold" htmlFor={name}>
+    <label className="label-color fw-semibold" htmlFor={name}>
       {label}
     </label>
     <Field

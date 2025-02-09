@@ -30,3 +30,26 @@
         flex-direction: column;
     }
 }
+
+.form-btn
+{
+   background-color: #ba9538;
+   color: white;
+   border: none;
+   padding: 5px 50px;
+   border-radius: 3px;
+   font-weight: bold;
+   text-decoration: none;
+   text-align: center;
+}
+
+.form-btn:hover
+{
+    background-color: #a0752e;
+}
+
+.form-btn:active
+{
+    background-color: #805828;
+}
+

@@ -1,6 +1,8 @@
 .card
 {
    width: 250px;
+   background-color: #e6daa2;
+   color: #3C2415;
 }
 
 .card .card-img-top
