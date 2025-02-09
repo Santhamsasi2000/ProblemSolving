@@ -1,88 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
 *
 {
   font-family: "Montserrat", sans-serif;
 }
-/* Apply Bower for headings */
-.page-title
-{
-  font-family: "Rubik Mono One", monospace;
-  font-size: 80px;
-  text-align: center;
-  background-color: #163300;
-  color: #9FE870;
-  padding: 40px 0px;
-}
-
-@media all and (max-width: 900px)
-{
-  .page-title
-  {
-    font-size: 70px;
-  }
-}
-
-@media all and (max-width: 800px)
-{
-  .page-title
-  {
-    font-size: 60px;
-  }
-}
-
-@media all and (max-width: 700px)
-{
-  .page-title
-  {
-    font-size: 50px;
-  }
-}
-
-@media all and (max-width: 600px)
-{
-  .page-title
-  {
-    font-size: 40px;
-  }
-}
-
-@media all and (max-width: 500px)
-{
-  .page-title
-  {
-    font-size: 35px;
-  }
-}
-
-@media all and (max-width: 400px)
-{
-  .page-title
-  {
-    font-size: 30px;
-  }
-}
 
 .common-bg
 {
-    background-color: #EDEFEB;
+    background-color: #f9f7ed;
+}
+
+.page-title
+{
+    color: #5d3d26;
+    text-align: center;
+    font-weight: 900;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: "Sora", serif;
+}
+
+.subtitle
+{ 
+  color:#a0752e;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 /* Careers.css and CaseStudies.css */
-.btn-success
+.btn-casestudy
 {
-    background-color: #80e142 !important;
+    background-color:  #3c2415 !important;
+    color: white;
     border: none;
     font-weight:600;
-    transition: background-color 0.3s ease, transform 0.2s ease
-}
-
-.btn-success:hover 
-{
-  color: black !important;
-  transform: translateY(-2px); /* Subtle lift effect */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    text-align: center;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 4px;
 }
 
 .common-btn:hover
@@ -99,4 +56,9 @@
 .getInImage
 {
   height: 400px;
+}
+
+.justify-text
+{
+  text-align: justify;
 }

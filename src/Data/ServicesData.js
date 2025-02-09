@@ -2,9 +2,9 @@ export const ServicesData = [
     {
         id:1,
         image:"/Images/Services/Business Insight.jpg",
-        title:"Monitoring Business Growth",
+        title:"Spying Your Business",
         subtitle:"Business Loop Analysis",
-        desc:"Pinpoint and resolve business loopholes across all sectors with expert analysis and actionable insights."
+        desc:"Experts work on-site to identify and resolve inefficiencies. Monitor remotely by accessing secure camera feeds, ensuring minimal disruption."
     },
     {
         id:2,
@@ -22,60 +22,59 @@ export const ServicesData = [
     },
     {
         id:4,
-        // image:"/Images/Services/Lean Layout.jpg",
-        image:"https://i.ibb.co/z8qS7SX/Auditing.jpg",
-        title:"Lean Layout Preparation",
-        subtitle:"Streamlined 2D Designs & Power BI Reports",
-        desc:" Optimize your operations with professional lean layouts in 2D and detailed Power BI reports."
+        image:"/Images/Services/People Surveys.jpg",
+        title:"People Surveys",
+        subtitle:"Voice of the People",
+        desc:"Gather critical insights with professionally designed and executed surveys tailored to your audience."
     },
     {
         id:5,
-        image:"/Images/Services/Creative-straegies.jpg",
-        title:"Creative Expansion Strategies",
-        subtitle:"Innovative Thinking Lab",
-        desc:"Turning Your Innovative Ideas into Reality with our unique strategies."
-    },
-    {
-        id:6,
-        image:"/Images/Services/Event Trip.jpg",
-        title:"Event & Trip Planning",
-        subtitle:"Global Event Architects",
-        desc:"Plan seamless events and luxurious trips for foreign clients to enhance your business relationships."
-    },
-    {
-        id:7,
-        image:"/Images/Services/Website.jpg",
-        title:"Website Development & Social Media Growth",
-        subtitle:"Digital Presence Builders",
-        desc:"Craft professional websites and grow your social media following with proven techniques."
-    },
-    {
-        id:8,
-        image:"/Images/Services/Auditing.jpg",
-        title:"Auditing Services",
-        subtitle:"Compliance & Efficiency Audits",
-        desc:"Conduct thorough audits to ensure legal compliance and operational efficiency in every aspect of your business."
-    },
-    {
-        id:9,
-        image:"/Images/Services/QMS Management.jpg",
-        title:"Management QMS Documentation",
-        subtitle:"Quality Systems Mastery",
-        desc:"Develop and maintain robust Quality Management System (QMS) documentation to meet global standards."
-    },
-    {
-        id:10,
         image:"/Images/Services/ManPower Supply.jpg",
         title:"Manpower Supply",
         subtitle:"Talent Supply Network",
         desc:"Find skilled manpower tailored to your industry needs through our vast supply chain network."
     },
     {
+        id:6,
+        image:"/Images/Services/QMS Management.jpg",
+        title:"Management Representative",
+        subtitle:"Strategic Guidance Through Expert Representation",
+        desc:"Professional management representation to streamline your operations, ensure compliance, and enhance strategic decision-making for sustainable growth."
+    },
+    {
+        id:7,
+        image:"/Images/Services/Event Trip.jpg",
+        title:"Lean  Training & Transformation",
+        subtitle:"Driving Excellence Through Waste-Free Operations",
+        desc:"Empower your team with a performance-driven approach that eliminates resource waste and defects, fostering operational efficiency and sustainable growth."
+    },
+    {
+        id:8,
+        image:"/Images/Services/Lean Layout.jpg",
+        title:"Lean Layout Preparation",
+        subtitle:"Streamlined 2D Designs & Power BI Reports",
+        desc:" Optimize your operations with professional lean layouts in 2D and detailed Power BI reports."
+    },
+    {
+        id:9,
+        image:"/Images/Services/Auditing.jpg",
+        title:"Auditing Services",
+        subtitle:"Compliance & Efficiency Audits",
+        desc:"Conduct thorough audits to ensure legal compliance and operational efficiency in every aspect of your business."
+    },
+    {
+        id:10,
+        image:"/Images/Services/Website.jpg",
+        title:"Website Development & Social Media Growth",
+        subtitle:"Digital Presence Builders",
+        desc:"Craft professional websites and grow your social media following with proven techniques."
+    },
+    {
         id:11,
-        image:"/Images/Services/People Surveys.jpg",
-        title:"People Surveys",
-        subtitle:"Voice of the People",
-        desc:"Gather critical insights with professionally designed and executed surveys tailored to your audience."
+        image:"/Images/Services/Creative-straegies.jpeg",
+        title:"Creative Expansion Strategies",
+        subtitle:"Your idea, our planning and implementation",
+        desc:"Turning Your Innovative Ideas into Reality with our unique strategies."
     },
     {
         id:12,

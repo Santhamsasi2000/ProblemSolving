@@ -7,16 +7,17 @@ import { OurTeamData } from "../../Data/OurTeamData";
 
 const OurTeam = () => {
   return (
-    <section>
-      <div className="page-title">OUR TEAM</div>
-        <div className="common-bg p-5 our-team row justify-content-center gap-5">
+    <section className="p-3 p-sm-5 common-bg">
+       <p className="page-title mb-1">Our Team</p>
+       <p className="page-title-underline"></p>
+        <div className="p-5 our-team row justify-content-center gap-5">
           {
             OurTeamData.map(({id,name,designation})=>(
-              <div className="card col-6 p-0 border-0">
-                <img className="card-img-top" src="/Images/AboutUs/Team/No-Image1.jpg" alt="No-Image" />
+              <div className="important-component card col-6 p-0 border-0">
+                <img className="card-img-top" src="/Images/AboutUs/Team/No-Image2.jpg" alt="No-Image" />
                 <div className="card-body">
-                  <p className="card-title fw-bold text-uppercase fs-5 text-center">{name}</p>
-                  <p className="card-subtitle fw-semibold text-uppercase text-center">{designation}</p>
+                  <p className="subtitle text-center mb-2">{name}</p>
+                  <p className="card-subtitle text-center">{designation}</p>
                 </div>
             </div>
             ))

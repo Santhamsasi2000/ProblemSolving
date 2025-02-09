@@ -1,6 +1,7 @@
 .footer
 {
-    background-color: #edefeb;
+    background-color: #3c2415;
+    color: white !important;
 }
 
 .media-icons
@@ -10,14 +11,14 @@
     height: 40px; 
 }
 
-/* .navcolor
-{
-    color: #0D1466 !important;
-} */
-
 .footer a
 {
-    color: black;
+    color: white !important;
+}
+
+.media-icons .navcolor
+{
+    color: #3c2415 !important;
 }
 
 .footer .footer-Links:hover
@@ -30,8 +31,18 @@
     background-color:bisque !important;
 }
 
-.footer-img
+@media (max-width: 450px) 
 {
-    width: 100px;
-    height: 100px;
+    .footer-Links
+    {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 350px) 
+{
+    .footer-Links
+    {
+        font-size: 10px;
+    }
 }

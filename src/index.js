@@ -4,27 +4,19 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router";
-import Services from "./Components/Services/Services";
-import Footer from "./Components/Footer/Footer";
-import Header from "./Components/NavBar/Header";
-import OurTeam from "./Components/About Us/OurTeam";
-import CaseStudies from "./Components/CaseStudies/CaseStudies";
-import CaseSeparate from "./Components/CaseStudies/CaseDesc1";
-import CaseDesc1 from "./Components/CaseStudies/CaseDesc1";
-import CaseDesc2 from "./Components/CaseStudies/CaseDesc2";
-import ContactUs from "./Pages/ContactUs";
-import Menus from "./Components/NavBar/Menus";
 import ScrollToTop from "./Components/ScrollToTop";
+import ContactUs from "./Components/ContactUs/ContactUs";
+import EasyNav from "./Components/NavBar/EasyNav";
+import OurTeam from "./Components/About Us/OurTeam";
 import Careers from "./Components/About Us/Careers";
-import AboutUs from "./Components/About Us/AboutUs";
-import FAQ from "./Pages/FAQ";
+import CaseStudies from "./Components/CaseStudies/CaseStudies";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
       <ScrollToTop />
-      <App />
+      <App/>
     </React.StrictMode>
   </BrowserRouter>
 );

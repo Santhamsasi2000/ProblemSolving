@@ -13,11 +13,11 @@ const SocialMedia = () => {
           target='_blank'  rel="noopener noreferrer"><FaFacebookF /></a>
         </div>
         <div className='media-icons bg-white d-flex justify-content-center align-items-center'>
-          <a className='fs-5 navcolor pb-1' href='https://www.instagram.com/problemsolving.consultancy1/' 
+          <a className='fs-5 navcolor pb-1' href='https://www.instagram.com/problemsolving.consultancy1?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' 
            target='_blank'  rel="noopener noreferrer"><FaInstagram /></a>
         </div>
         <div className='media-icons bg-white d-flex justify-content-center align-items-center'>
-          <a className='fs-5 navcolor pb-1'  href='https://www.youtube.com/@shanthiranimatrichr.sec.sc9160/featured'
+          <a className='fs-5 navcolor pb-1'
           target='_blank' rel='noopener noreferrer'> <FaYoutube /></a>
         </div>
       </div>

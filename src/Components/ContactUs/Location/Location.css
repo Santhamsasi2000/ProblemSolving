@@ -1,0 +1,66 @@
+.location-icons
+{
+    background-color:#e6daa2;
+    padding: 10px;
+    color: #805828;
+    border-radius: 3px;
+    font-size: 25px;
+}
+
+@media all and (max-width:470px)
+{
+    .email,.text-mobile
+    {
+       font-size: 13px !important;
+    }
+    /* Diection.css */
+    .direction
+    {
+        height: 200px !important;
+    }
+}
+
+@media all and (max-width:400px)
+{
+    .email,.text-mobile
+    {
+       font-size: 10px !important;
+    }
+    .direction
+    {
+        height: 200px !important;
+    }
+}
+
+@media all and (max-width:340px)
+{
+    .email,.text-mobile
+    {
+       font-size: 9px !important;
+    }
+}
+
+.email:hover
+{
+    text-decoration: underline !important;
+    color:#805828 !important;
+}
+
+/* Direction.css */
+.direction
+{
+    height: 350px;
+}
+
+@media  all and (max-width:900px) 
+{
+    .direction
+    {
+        height: 300px;
+    }
+}
+
+.direction-border
+{
+    border:2px solid #805828;
+}

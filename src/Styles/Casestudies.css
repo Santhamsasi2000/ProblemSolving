@@ -45,12 +45,7 @@
 
 .casestudy-separate
 {
-  font-family: "Rubik Mono One", monospace;
-  font-size: 30px;
-  font-weight: 700;
-  text-align: center;
-  background-color: #163300;
-  color: #9FE870;
+  background-color: #e6daa2;
 }
 
 @media all and (max-width: 720px) 
