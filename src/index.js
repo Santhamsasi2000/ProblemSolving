@@ -5,11 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router";
 import ScrollToTop from "./Components/ScrollToTop";
-import ContactUs from "./Components/ContactUs/ContactUs";
-import EasyNav from "./Components/NavBar/EasyNav";
-import OurTeam from "./Components/About Us/OurTeam";
-import Careers from "./Components/About Us/Careers";
-import CaseStudies from "./Components/CaseStudies/CaseStudies";
+import HeroSection from "./Components/Home/HeroSection/HeroSection";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

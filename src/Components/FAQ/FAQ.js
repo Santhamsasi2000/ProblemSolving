@@ -9,9 +9,9 @@ const FAQ = () => {
         {
           FaqData.map(({id,title,content})=>(
             <div key={id}>
-              <p className="subtitle text-capitalize">{title}</p>
+              <p className="subtitle text-capitalize fs-6 mb-2">{title}</p>
               <p>{content}</p>
-              <hr/>
+              <hr style={{border:"1px  #a0752e solid"}}/>
             </div>
           ))
         }

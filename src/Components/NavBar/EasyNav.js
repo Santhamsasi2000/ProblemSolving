@@ -13,7 +13,7 @@ const EasyNav = () => {
   return (
     <nav className="navbar navbar-expand-lg px-3 px-sm-4">
       <div className="container-fluid">
-        <NavLink className="navbar-brand title" to="/">
+        <NavLink className="navbar-brand" to="/">
           {navbarTitle}
         </NavLink>
         <button

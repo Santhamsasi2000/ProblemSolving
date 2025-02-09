@@ -1,7 +1,6 @@
 import { Routes, Route } from "react-router";
 import "./App.css";
 import Footer from "./Components/Footer/Footer";
-import Home from "./Pages/Home";
 import Services from "./Components/Services/Services";
 import CaseStudies from "./Components/CaseStudies/CaseStudies";
 import FAQ from "./Components/FAQ/FAQ";
@@ -12,13 +11,14 @@ import AboutUs from "./Components/About Us/AboutUs";
 import EasyNav from "./Components/NavBar/EasyNav";
 import EachStudy from "./Components/CaseStudies/EachStudy/EachStudy";
 import { DataStudy } from "./Components/CaseStudies/EachStudy/DataStudy";
+import Home from "./Components/Home/Home";
 
 function App() {
   return (
     <>
       <EasyNav/>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home/>} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/teams" element={<OurTeam />} />
