@@ -9,7 +9,7 @@ const Location = () => {
     <section className="contact">
       <div className="mb-5">
         <div className="">
-          <p className="subtitle mb-2">Location</p>
+          <p className="subtitle">Location</p>
           <div className="d-flex gap-3 mb-4 align-items-center">
             <i className="location-icons">
               <SlLocationPin />

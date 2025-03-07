@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
 
-*
+body
 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Libre Franklin", serif;
 }
 
 .common-bg
@@ -11,9 +11,9 @@
     background-color: #f9f7ed;
 }
 
-.page-title
+.title
 {
-    color: #5d3d26;
+    color: #714a2f !important;
     text-align: center;
     font-weight: 900;
     font-size: 25px;
@@ -32,14 +32,20 @@
 /* Careers.css and CaseStudies.css */
 .btn-casestudy
 {
-    background-color:  #3c2415 !important;
+    background-color:  #a0752e !important;
     color: white;
     border: none;
     font-weight:600;
     text-align: center;
     text-decoration: none;
     padding: 7px;
-    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.btn-casestudy:hover
+{
+  background-color: #805828 !important;
+  transition: 0.5s;
 }
 
 .common-btn:hover

@@ -20,15 +20,11 @@
     }
 }
 
-@media all and (max-width:400px)
+@media all and (max-width:360px)
 {
     .email,.text-mobile
     {
-       font-size: 10px !important;
-    }
-    .direction
-    {
-        height: 200px !important;
+       font-size: 12px !important;
     }
 }
 
@@ -36,7 +32,7 @@
 {
     .email,.text-mobile
     {
-       font-size: 9px !important;
+       font-size: 11px !important;
     }
 }
 
