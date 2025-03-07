@@ -8,7 +8,7 @@ import { OurTeamData } from "../../Data/OurTeamData";
 const OurTeam = () => {
   return (
     <section className="p-3 p-sm-5 common-bg">
-       <p className="page-title mb-4">Our Team</p>
+       <p className="title mb-4">Our Team</p>
         <div className="our-team row justify-content-center gy-4">
           {
             OurTeamData.map(({id,name,designation})=>(

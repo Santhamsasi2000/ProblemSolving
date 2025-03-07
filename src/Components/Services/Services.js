@@ -5,7 +5,7 @@ import "../../Styles/Services.css";
 const Services = () => {
   return (
     <section className='common-bg p-3 p-sm-5'>
-      <div className="page-title mb-0 mb-md-5">SERVICES</div>
+      <div className="title mb-0 mb-md-5">SERVICES</div>
        <div className='row justify-content-md-around justify-content-center'>
        {
         ServicesData.map(({id,image,title,subtitle,desc})=>(

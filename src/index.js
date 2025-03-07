@@ -5,7 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router";
 import ScrollToTop from "./Components/ScrollToTop";
-import HeroSection from "./Components/Home/HeroSection/HeroSection";
+import EasyNav from "./Components/NavBar/EasyNav";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

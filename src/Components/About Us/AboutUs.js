@@ -1,7 +1,7 @@
 const AboutUs = () => {
   return (
     <section className="common-bg p-3 p-sm-5">
-       <div className="page-title mb-4">ABOUT US</div>
+       <div className="title mb-4">ABOUT US</div>
          <p className="subtitle">OUR VISION:</p>
          <p className="ms-2 justify-text">"Provide solutions for the development of culture in society, environment, and community without depend on money."</p>
          <p className="subtitle">OUR MISSION:</p>

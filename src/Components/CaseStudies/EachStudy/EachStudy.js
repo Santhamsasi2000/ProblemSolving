@@ -1,7 +1,7 @@
 const EachStudy = ({ title, aboutClient, services, outcome, image }) => {
     return (
       <section className="common-bg p-3 p-sm-5">
-        <p className="page-title mb-4">{title}</p>
+        <p className="title mb-4">{title}</p>
         <div>
           <h2 className="subtitle">About Client:</h2>
           <ul className="lh-lg justify-text">

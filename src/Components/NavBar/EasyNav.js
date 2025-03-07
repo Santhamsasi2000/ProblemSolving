@@ -1,21 +1,25 @@
 import { NavLink } from "react-router-dom";
 import "./EasyNav.css";
 
-const navbarTitle = "Problem Solving Consultancy";
 const closeNavbar = () => {
-  const navbar = document.querySelector(".navbar-collapse");
+  setTimeout(()=>{
+    const navbar = document.querySelector(".navbar-collapse");
   if (navbar.classList.contains("show")) {
     navbar.classList.remove("show");
   }
+  }, 300)
 };
 
 const EasyNav = () => {
   return (
-    <nav className="navbar navbar-expand-lg px-3 px-sm-4">
+    <nav className="navbar navbar-expand-xl px-3 px-sm-4">
       <div className="container-fluid">
-        <NavLink className="navbar-brand" to="/">
-          {navbarTitle}
-        </NavLink>
+      <NavLink className="navbar-brand d-flex flex-column flex-sm-row gap-sm-2" to="/">
+        <span className="navbar-title">Problem Solving</span>
+        <span className="navbar-title">Consultancy</span> 
+      </NavLink>
+
+        
         <button
           className="navbar-toggler"
           type="button"
@@ -35,21 +39,30 @@ const EasyNav = () => {
                 Home
               </NavLink>
             </li>
-              <li className="nav-item">
+
+            {/* Services */}
+            <li className="nav-item">
               <NavLink className="nav-link" aria-current="page" to="/services" onClick={closeNavbar}>
                 Services
               </NavLink>
-              </li>
+            </li>
 
+             {/* Case Studies */}
+             <li className="nav-item">
+              <NavLink className="nav-link" aria-current="page" to="/case-studies" onClick={closeNavbar}>
+                CaseStudy
+              </NavLink>
+            </li>
+ 
             {/* About */}
-            <li className="nav-item dropdown">
+             <li className="nav-item dropdown">
               <span className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 About
               </span>
               <ul className="dropdown-menu">
                 <li>
                   <NavLink className={({ isActive }) => "dropdown-item" + (isActive ? " active" : "")} to="/aboutus" onClick={closeNavbar}>
-                    About Us
+                  About Us
                   </NavLink>
                 </li>
                 <li>
@@ -64,18 +77,14 @@ const EasyNav = () => {
                 </li>
               </ul>
             </li>
-             {/*Case Studies*/}
-             <li className="nav-item">
-              <NavLink className="nav-link" to="/case-studies" onClick={closeNavbar}>
-                Case Studies
-              </NavLink>
-            </li>
-            {/* FAQ*/}
-            <li className="nav-item">
+
+          {/* About Us*/}
+          <li className="nav-item">
               <NavLink className="nav-link" to="/faq" onClick={closeNavbar}>
                 FAQ
               </NavLink>
             </li>
+
             {/* Contact */}
             <li className="nav-item">
               <NavLink className="nav-link" to="/contact" onClick={closeNavbar}>

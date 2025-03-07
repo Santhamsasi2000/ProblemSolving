@@ -1,26 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+.navbar-title
+{
+    color: #352014 !important;
+    font-family: "Sora", serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
 .navbar,.dropdown-menu
 {
-    background-color: #3c2415;
+    background-color: #c5ab5a;
 }
 
 .navbar a,.nav-link
 {
-    color:#f9f7ed !important;
+    color: #352014 !important;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .navbar a:hover:not(.navbar-brand),.nav-link:hover:not(.navbar-brand)
 {
-    color: #ba9538 !important;
+    color: white !important;
     transition: .5s !important;
 }
 
 .navbar a.active:not(.navbar-brand)
 {
-  background-color: #f9f7ed;
-  color: #3c2415 !important;
-  transition: .5s;
-  border-radius: 5px;
+    background-color: #a4773b;
+    color:  white !important;
+    transition: .5s;
 }
+
+.nav-item.dropdown:has(.dropdown-item.active) > .dropdown-toggle {
+    background-color: #bb9345;
+    color:  white !important;
+    transition: .5s;
+  }
 
 .navbar-toggler
 {
@@ -31,46 +49,9 @@
 
 .navbar-toggler-icon 
 {
-    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' fill='white'><path stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' fill='black'><path stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
 }
 
-@media(max-width: 370px)  
-{
-    .navbar
-    {
-        padding-left: 2px !important;
-        padding-right: 2px !important;
-    }
-}
-
-@media(max-width: 420px)  
-{
-    .navbar-brand
-    {
-       font-size: 18px !important;
-    }
-}
-
-@media(max-width: 395px)  
-{
-    .navbar-brand
-    {
-       font-size: 16px !important;
-    }
-}
-
-@media(max-width: 330px)  
-{
-    .navbar
-    {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
-    .navbar-brand
-    {
-       font-size: 14px !important;
-    }
-}
 .dropdown-menu
 {
     border-color: white !important;;
@@ -80,4 +61,29 @@
 {
     background-color: transparent !important; /* Removes background */
     color: inherit !important; /* Keeps the text color unchanged */
+}
+
+@media(max-width: 630px)  
+{
+    .navbar
+    {
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+    }
+}
+
+@media(max-width: 581px)  
+{
+    .navbar-title
+    {
+       font-size: 23px;
+    }
+}
+
+@media(max-width: 350px)  
+{
+    .navbar-title
+    {
+        font-size: 20px;
+    }
 }

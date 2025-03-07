@@ -4,7 +4,7 @@ import "../../Styles/FAQ.css";
 const FAQ = () => {
   return (
     <section className="common-bg p-3 p-sm-5">
-      <p className="page-title mb-4">Frequently Asked Questions</p>
+      <p className="title mb-4">Frequently Asked Questions</p>
       <div className="mt-3">
         {
           FaqData.map(({id,title,content})=>(

@@ -6,7 +6,7 @@ import { CareerData } from "../../Data/CareerData";
 const Careers = () => {
   return (
     <section className="p-3 p-sm-5 common-bg">
-      <div className="page-title">CAREERS</div>
+      <div className="title">CAREERS</div>
       <div className="mt-0 career-cards row gy-5">
        {
         CareerData.map(({id,department,skillCategories,qualification,description,vacancy,experience,location})=>(

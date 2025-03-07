@@ -8,10 +8,12 @@ import ContactUs from "./Components/ContactUs/ContactUs";
 import OurTeam from "./Components/About Us/OurTeam";
 import Careers from "./Components/About Us/Careers";
 import AboutUs from "./Components/About Us/AboutUs";
-import EasyNav from "./Components/NavBar/EasyNav";
 import EachStudy from "./Components/CaseStudies/EachStudy/EachStudy";
 import { DataStudy } from "./Components/CaseStudies/EachStudy/DataStudy";
+import EasyNav from "./Components/NavBar/EasyNav";
 import Home from "./Components/Home/Home";
+//Blur Image
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 function App() {
   return (
