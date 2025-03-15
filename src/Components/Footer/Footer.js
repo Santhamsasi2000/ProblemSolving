@@ -1,5 +1,5 @@
 import SocialMedia from './SocialMedia';
-import "../../Styles/Footer.css";
+import "./Footer.css";
 import QuickLinks from './QuickLinks';
 import FooterContact from './FooterContact';
 
