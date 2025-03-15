@@ -43,11 +43,13 @@ form
 .form-btn:hover
 {
     background-color: #a0752e;
+    transition: 0.5s;
 }
 
 .form-btn:active
 {
     background-color: #805828;
+    transition: 0.5s;
 }
 
 @media all  and (max-width: 480px)

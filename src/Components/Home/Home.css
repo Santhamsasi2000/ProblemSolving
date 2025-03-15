@@ -1,0 +1,72 @@
+/* AboutHome.css */
+
+.abouthome-title
+{
+  color: #654e47;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.abouthome-btn
+{
+   background-color: #a0826f;
+   color: white;
+   border: none;
+   padding: 8px 20px;
+   border-radius: 3px;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.abouthome-btn:hover
+{
+  background-color: #937263;
+  transition: 0.5s;
+}
+
+.abouthome-btn:active
+{
+  background-color: #7b5e53;
+  transition: 0.5s;
+}
+
+@media (max-width: 1200px) and (min-width: 992px) 
+{
+   .homeabout-img
+   {
+     height: 300px;
+   }
+}
+
+/* ServicesHome.css */
+.servicehome-title
+{
+  color: #2d423b;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.servicehome-btn
+{
+   background-color: #3e6355;
+   color: white;
+   border: none;
+   padding: 8px 20px;
+   border-radius: 3px;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.servicehome-btn:hover
+{
+  background-color: #345146;
+  transition: 0.5s;
+}
+
+.servicehome-btn:active
+{
+  background-color: #2d423b;
+  transition: 0.5s;
+}

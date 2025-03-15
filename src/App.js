@@ -21,7 +21,7 @@ function App() {
       <EasyNav/>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/careers" element={<Careers />} />
+        {/* <Route path="/careers" element={<Careers />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/teams" element={<OurTeam />} />
         <Route path="/services" element={<Services />} />
@@ -34,7 +34,7 @@ function App() {
           />
         ))}
         <Route path="/faq" element={<FAQ />} />
-        <Route path="/contact" element={<ContactUs />} />
+        <Route path="/contact" element={<ContactUs />} /> */}
       </Routes>
       <Footer />
     </>

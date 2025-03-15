@@ -6,13 +6,15 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router";
 import ScrollToTop from "./Components/ScrollToTop";
 import EasyNav from "./Components/NavBar/EasyNav";
+import Footer from "./Components/Footer/Footer";
+import Home from "./Components/Home/Home";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
       <ScrollToTop />
-      <App/>
+      <App/> 
     </React.StrictMode>
   </BrowserRouter>
 );
